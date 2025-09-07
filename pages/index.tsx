@@ -74,8 +74,8 @@ export default function Home() {
  
               {/*Listing Section Section */}
              <div className="grid  gap-4">
-             {properties.map((property) => (
-             <PropertyCard key={property.id} property={property} />))}
+             {properties.map((property,index) => (
+             <PropertyCard key={index} property={property} />))}
             </div>
     </div>
 

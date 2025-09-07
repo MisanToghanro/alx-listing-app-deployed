@@ -20,6 +20,7 @@ export interface PropertyProps {
   offers: Offers;
   image: string;
   discount: string;
+ 
 }
 
 export interface PillProps{
